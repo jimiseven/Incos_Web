@@ -1,49 +1,58 @@
-img{
-    height: 80vh;
+img {
+  height: 80vh;
 }
-.nav{
-    width: 30px;
-    height: 25px;
+.nav {
+  width: 30px;
+  height: 25px;
 }
-.color{
-    background-color: dimgray;
+.color {
+  background-color: dimgray;
 }
-.nav-link{
-    color: white;
-}
-
-.contenedor{  
-    margin-right: 300px;
-    margin-left: 300px;
-}
-body{
-    background: url("../img/gris2.jpg");
-    background-size: cover;
-}
-.pie{
-    padding: 45px;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-}
-.cont_pie{
-    border: 5px solid;
-}
-.modal-title, .modal-body{
-    color: black;
+.nav-link {
+  color: white;
 }
 
-.container{
-    color: white;
-    height: 80vh;
-    background-image: url(../img/logo.png);
-    background-size: cover;
-    background-position: 75%;
+.contenedor {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+body {
+  background: url("../img/gris2.jpg");
+  background-size: cover;
+}
+.pie {
+  padding: 45px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.cont_pie {
+  border: 5px solid;
+}
+.modal-title,
+.modal-body {
+  color: black;
+}
+
+.container {
+  color: white;
+  height: 80vh;
+  background-image: url(../img/logo.png);
+  background-size: cover;
+  background-position: 75%;
 }
 .container1 {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    height: 75vh;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  height: 75vh;
+}
+.siz {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 286px;
+  height: 190px;
 }
