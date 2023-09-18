@@ -56,3 +56,10 @@ body {
   width: 286px;
   height: 190px;
 }
+.zoomable-image {
+    transition: transform 0.2s; /* Agrega una transición suave */
+}
+
+.zoomable-image:hover {
+    transform: scale(1.2); /* Escala la imagen al 120% al pasar el mouse por encima */
+}
