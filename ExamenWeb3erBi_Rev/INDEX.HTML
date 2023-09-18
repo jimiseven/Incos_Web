@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NO A LA VIOLENCIA</title>
+
+    <!-- Enlace a los estilos de Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tamaño.css">
+</head>
+<body>
+  <div>
+    <!-- Barra de Navegación de Bootstrap -->
+    <div class="barras_nav">
+      <nav class="navbar navbar-expand-lg justify-content-center color">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" class="nav" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><em>Inicio</em></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="html/acerca.html"><em>Acerca de </em></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="html/galeria.html"><em>Galeria de Imagenes</em></a>
+              </li>
+              <li class="nav-item d-flex">
+                <a class="nav-link" href="html/html.html"><em>Normativas y leyes</em></a>
+              </li>
+              </li><li class="nav-item">
+                <a class="nav-link" href="html/pipipi.html"><em>Derechos</em></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Carrusel de Imágenes de Bootstrap -->
+    <div class="fondo">  
+      <div class="contenedor">
+        <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/im1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/IMG1.jpeg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/img2.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+        <div class="pie">
+          <div><a class="btn btn-outline-light disabled" href="#">Previus</a></div>
+          <div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Sign In
+            </button>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="mb-3">
+                      <label for="">Nombre</label>
+                      <input class="form-control" type="text">
+                      <label for="">Apellidos</label>
+                      <input class="form-control" type="text">
+                      <label for="">Telf/Cel</label>
+                      <input class="form-control" type="tel">
+                    </div>
+                    
+                    <div>
+                      <div class="row g-3 align-items-center">
+                        <hr>
+                        <label for="">Correo</label>
+                        <input class="form-control" type="email">
+                        <div class="col-auto">
+                          <label for="inputPassword6" class="col-form-label">Password</label>
+                        </div>
+                        <div class="col-auto">
+                          <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                        <div class="col-auto">
+                          <span id="passwordHelpInline" class="form-text">
+                            Must be 8-20 characters long.
+                          </span>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="mb-3">
+                        <label for="formFile" class="form-label">Cargar Foto</label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div></div>
+          
+            <a class="btn btn-outline-light" href="html/acerca.html">Next</a>
+          
+        </div>
+    </div>
+
+    </div>
+    <!-- Agregar los scripts de Bootstrap (jQuery y Popper.js) y Bootstrap JavaScript -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
