@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Mi ejemplo</h1>
+    <script>
+      let pares = [];
+
+      while (true) {
+        let numero = parseInt(prompt("Introduce un número:"));
+
+        if (numero === null) {
+          break;
+        }
+
+        if (numero % 2 === 0) {
+          pares.push(numero);
+        }
+      }
+
+      document.write(
+        "La suma de los números pares es: " + pares.reduce((a, b) => a + b)
+      );
+      document.write("La cantidad de números pares es: " + pares.length);
+    </script>
+  </body>
+</html>

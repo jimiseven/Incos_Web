@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tabla de multiplicar</title>
+  </head>
+  <body>
+    <h1>Tabla de multiplicar</h1>
+    <script>
+      let numeros = [];
+
+      for (let i = 1; i <= 6; i++) {
+        let numero = prompt("Introduce un número:");
+
+        numeros.push(numero);
+      }
+
+      let pares = numeros.filter((numero) => numero % 2 === 0);
+
+      document.write("Los números pares introducidos son:");
+
+      pares.forEach((numero) => {
+        document.write(numero + " ");
+      });
+    </script>
+  </body>
+</html>
